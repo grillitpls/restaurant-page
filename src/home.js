@@ -17,7 +17,7 @@ const home = () => {
     homeTxt.classList.add('info')
 
     const h1 = document.createElement('h1')
-    h1.textContent = 'Have A Vietnamese Dine'
+    h1.textContent = 'Have A Vietnamese Dine Restaurant'
     homeTxt.appendChild(h1)
 
     const p = document.createElement('p')
