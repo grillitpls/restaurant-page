@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+}
+
+/* nav */
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav button { 
+    height: 20%;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content */
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#content img {
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#content h1 {
+    margin-bottom: 10px;
+    color: royalblue
+}
+
+#content p {
+    color: sienna
+}
+
+.hero {
+    width: 80%;
+    height: 500px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.info {
+    margin: 20px 0px;
+    border: 1px dotted yellow;
+    width: 800px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.info p {
+    margin: 5px;
+}
+/* menu */
+.food {
+    background-color: sienna;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.food h1 {
+    padding: 10px;
+}
+
+.food li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: seashell;
+}
+
+.beverage {
+    background-color:darkorange;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.beverage h1 {
+    padding: 10px;
+}
+
+.beverage li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: seashell;
+}
+
+/* about */
+.contact {
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    padding: 20px 20px 50px 20px;
+}
+.contact-text {
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.contact h3 {
+    color: cornsilk;
+    margin-bottom: 15px;
+}
+
+.contact li {
+    list-style: none;
+}
+
